@@ -1,0 +1,136 @@
+:root {
+    --title-color: #8b6d9c;
+    --background-color: #272744;
+    --background-color2: #494d7e;
+    --highlight-color: #f2d3ab;
+    --text-color: #c69fa5;
+    --highlight-color3: #fbf5ef;
+}
+
+.index, 
+.lasagne-body,
+.pizza-body,
+.polenta-body {
+    background: linear-gradient(90deg, var(--background-color), var(--background-color2));
+}
+
+.lasagne-recipe,
+.pizza-recipe,
+.polenta-recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*NAVBAR*/
+
+nav > ul > li {
+    display: inline;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 0;
+}
+
+
+.item1:hover {
+    background-color: var(--background-color);
+}
+
+
+
+img {
+    border: 25px solid var(--highlight-color3);
+    border-radius: 20px 0px 20px 0;
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+}
+
+h1 {
+    color: var(--title-color);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 60px;
+    padding: 0;
+    margin: 10 px 0 0px 0;
+}
+
+h2,
+h3 {
+    color: var(--title-color);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.servings {
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+}
+
+ul > li {
+    list-style: none;
+    text-align: center;
+    color: var(--text-color);
+    padding: 10px 35px 10px 0;
+}
+
+ol {
+    margin-top: -10px;
+}
+
+ol > li {
+    color: var(--text-color);
+    padding: 0 0 10px 0;
+} 
+
+
+p {
+    color: var(--highlight-color3); 
+    text-align: center;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+.index-link {
+    text-decoration: none;
+    color: var(--title-color);
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: var(--highlight-color2);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+a:hover {
+    color: var(--highlight-color3);
+}
+
+/*HOME BUTTONS*/
+
+ .home-alto {
+    background-color: var(--background-color);
+    border-color: var(--background-color2);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+ 
+ }
+
+ .home-basso {
+    background-color: var(--background-color);
+    border-color: var(--background-color2);
+    border-radius: 10px;
+ }
